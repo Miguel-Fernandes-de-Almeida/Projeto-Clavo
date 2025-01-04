@@ -51,8 +51,12 @@ body {
   z-index: 1;
   top: 50%;
   transform: translateY(-50%);
-  left: 0;
+  animation: slideback 0.5s forwards;
 }
+#switch button:hover {
+  outline: 8px solid var(--hight-light-color);
+}
+
 #switch span {
   display: block;
   border-radius: 9999px;
@@ -63,8 +67,7 @@ body {
   backdrop-filter: blur(4px);
 }
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: sliding 0.5s forwards;
 }
 
 #profile {
@@ -140,6 +143,23 @@ footer {
     --bg-url: url(./bg-desktop.jpg);
   }
   .light {
-    --bg-url: url(./bg-desktop-light.jpg)
+    --bg-url: url(./bg-desktop-light.jpg);
+  }
+}
+@keyframes sliding {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slideback {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
