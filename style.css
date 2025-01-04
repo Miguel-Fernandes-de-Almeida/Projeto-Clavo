@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: white;
+  --bg-url: url(./bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --hover-color: rgba(255, 255, 255, 0.05);
+  --hight-light-color: rgba(255, 255, 255, 0.2);
+  --switch-bg: url(./moonl-light.svg);
+}
+.light {
+  --text-color: black;
+  --bg-url: url(./bg-mobile-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --hover-color: rgba(0, 0, 0, 0.2);
+  --hight-light-color: rgba(0, 0, 0, 0.2);
+  --switch-bg: url(./sun.svg);
+}
+
+body {
+  background-image: var(--bg-url);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+#container {
+  width: 360px;
+  margin: auto;
+  margin-top: 56px;
+  padding: 0 24px;
+}
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
+}
+#switch button {
+  height: 32px;
+  width: 32px;
+  background: white var(--switch-bg) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+#switch span {
+  display: block;
+  border-radius: 9999px;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+}
+.light #switch button {
+  right: 0;
+  left: initial;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile p {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+#profile img {
+  width: 112px;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding: 24px 0;
+}
+
+ul li a {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+ul li a:hover {
+  background: var(--hover-color);
+  border: 1.5px solid var(--text-color);
+}
+#social-links {
+  display: flex;
+  gap: 16px;
+  padding: 24px 0;
+  font-size: 24px;
+  justify-content: center;
+}
+#social-links a:hover {
+  background: var(--hight-light-color);
+  border-radius: 50%;
+}
+#social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+footer {
+  text-align: center;
+  padding: 24px 0;
+}
