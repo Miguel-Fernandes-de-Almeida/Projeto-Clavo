@@ -19,7 +19,7 @@ LinkTree da Clavo. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/Cover.jpg" width="100%">
+  <img alt="Projeto Clavo" src="https://github.com/Miguel-Fernandes-de-Almeida/Projeto-Clavo/blob/main/imagem_clavo_git.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -35,9 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
-
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
+- [Acesse o projeto finalizado, online](https://clavoarquitetura.com.br/insta/?fbclid=PAZXh0bgNhZW0CMTEAAaa0vILfNS3hl1JVZaDrzM0XFbNHqkT2uHKfwNg75uR8OcDHvzW2HANw6J8_aem_jvabaQ8AepZR8oMaUeS6zw)
 
 ## 🔖 Layout
 
@@ -48,5 +46,3 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 Esse projeto está sob a licença MIT.
 
 ---
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
