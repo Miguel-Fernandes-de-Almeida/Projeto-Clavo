@@ -19,7 +19,7 @@ LinkTree da Clavo. <br/>
 <br>
 
 <p align="center">
-  <img alt="Projeto Clavo" src="https://github.com/Miguel-Fernandes-de-Almeida/Projeto-Clavo/blob/main/imagem_clavo_git.png" width="100%">
+  <img alt="Projeto Clavo" src="https://github.com/miguelgomes-dev/Projeto-Clavo/blob/main/imagem_clavo_git.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
